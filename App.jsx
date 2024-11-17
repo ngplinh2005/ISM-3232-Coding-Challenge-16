@@ -11,9 +11,9 @@ function App() {
     { id: 2, name: "Headphones", price: 150, description: "Noise-cancelling headphones." },
   ]);
 
-  function addProduct(product) {
-    setProducts((prevProducts) => [...prevProducts, { ...product, id: prevProducts.length + 1 }]);
-  }
+  const addProduct = (product) => {
+    setProducts([...products, product]);
+  };
 
   return (
     <div>
