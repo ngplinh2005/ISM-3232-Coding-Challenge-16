@@ -1,5 +1,4 @@
 // Task 2: Create the App Component
-// Task 5: Implement Keys in the ProductList Component
 
 import React, { useState } from "react";
 import ProductList from "./ProductList";

@@ -16,8 +16,9 @@ function AddProductForm({ addProduct }) {
             price,
             description
         };
-
-        addProduct(newProduct); // Add the new product to the list in App
+        
+        // Add the new product to the list in App
+        addProduct(newProduct); 
         setName(''); 
         setPrice('');
         setDescription('');
