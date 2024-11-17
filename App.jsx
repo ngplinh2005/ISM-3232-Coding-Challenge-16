@@ -1,4 +1,5 @@
 // Task 2: Create the App Component
+// Task 5: Implement Keys in the ProductList Component
 
 import React, { useState } from "react";
 import ProductList from "./ProductList";
@@ -18,7 +19,7 @@ function App() {
     <div>
       <h1>Product Dashboard</h1>
       <ProductList products={products} />
-      <AddProductForm addProduct={addProduct} />
+      <AddProductForm addProduct={addProduct} />   
     </div>
   );
 }
